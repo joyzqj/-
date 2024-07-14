@@ -1,0 +1,1359 @@
+[2024-06-04 09:40:18 +0800] [1540] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 09:40:18 +0800] [1540] [INFO] Listening at: http://127.0.0.1:6006 (1540)
+[2024-06-04 09:40:18 +0800] [1540] [INFO] Using worker: sync
+[2024-06-04 09:40:18 +0800] [1541] [INFO] Booting worker with pid: 1541
+[2024-06-04 09:40:18 +0800] [1541] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'tset'
+[2024-06-04 09:40:18 +0800] [1541] [INFO] Worker exiting (pid: 1541)
+[2024-06-04 09:40:18 +0800] [1540] [ERROR] Worker (pid:1541) exited with code 3
+[2024-06-04 09:40:18 +0800] [1540] [ERROR] Shutting down: Master
+[2024-06-04 09:40:18 +0800] [1540] [ERROR] Reason: Worker failed to boot.
+[2024-06-04 09:42:32 +0800] [1587] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 09:42:32 +0800] [1587] [INFO] Listening at: http://127.0.0.1:6006 (1587)
+[2024-06-04 09:42:32 +0800] [1587] [INFO] Using worker: sync
+[2024-06-04 09:42:32 +0800] [1588] [INFO] Booting worker with pid: 1588
+[2024-06-04 09:42:32 +0800] [1588] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'tset'
+[2024-06-04 09:42:32 +0800] [1588] [INFO] Worker exiting (pid: 1588)
+[2024-06-04 09:42:32 +0800] [1587] [ERROR] Worker (pid:1588) exited with code 3
+[2024-06-04 09:42:32 +0800] [1587] [ERROR] Shutting down: Master
+[2024-06-04 09:42:32 +0800] [1587] [ERROR] Reason: Worker failed to boot.
+[2024-06-04 09:43:19 +0800] [1604] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 09:43:19 +0800] [1604] [INFO] Listening at: http://127.0.0.1:6006 (1604)
+[2024-06-04 09:43:19 +0800] [1604] [INFO] Using worker: sync
+[2024-06-04 09:43:19 +0800] [1605] [INFO] Booting worker with pid: 1605
+[2024-06-04 09:43:19 +0800] [1606] [INFO] Booting worker with pid: 1606
+[2024-06-04 09:43:19 +0800] [1607] [INFO] Booting worker with pid: 1607
+[2024-06-04 09:43:19 +0800] [1608] [INFO] Booting worker with pid: 1608
+[2024-06-04 09:43:19 +0800] [1609] [INFO] Booting worker with pid: 1609
+[2024-06-04 09:43:20 +0800] [1645] [INFO] Booting worker with pid: 1645
+[2024-06-04 09:43:20 +0800] [1668] [INFO] Booting worker with pid: 1668
+[2024-06-04 09:43:20 +0800] [1681] [INFO] Booting worker with pid: 1681
+[2024-06-04 09:43:20 +0800] [1699] [INFO] Booting worker with pid: 1699
+[2024-06-04 09:43:20 +0800] [1700] [INFO] Booting worker with pid: 1700
+[2024-06-04 09:43:20 +0800] [1718] [INFO] Booting worker with pid: 1718
+[2024-06-04 09:43:20 +0800] [1753] [INFO] Booting worker with pid: 1753
+[2024-06-04 09:43:20 +0800] [1754] [INFO] Booting worker with pid: 1754
+[2024-06-04 09:43:20 +0800] [1789] [INFO] Booting worker with pid: 1789
+[2024-06-04 09:43:20 +0800] [1790] [INFO] Booting worker with pid: 1790
+[2024-06-04 09:43:20 +0800] [1792] [INFO] Booting worker with pid: 1792
+[2024-06-04 09:43:30 +0800] [1606] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:43:30 +0800] [1606] [INFO] Worker exiting (pid: 1606)
+[2024-06-04 09:43:30 +0800] [1668] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:43:30 +0800] [1668] [INFO] Worker exiting (pid: 1668)
+[2024-06-04 09:43:30 +0800] [1753] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:43:30 +0800] [1753] [INFO] Worker exiting (pid: 1753)
+[2024-06-04 09:43:30 +0800] [1699] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:43:30 +0800] [1699] [INFO] Worker exiting (pid: 1699)
+[2024-06-04 09:43:30 +0800] [1681] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:43:30 +0800] [1681] [INFO] Worker exiting (pid: 1681)
+[2024-06-04 09:43:30 +0800] [1790] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:43:30 +0800] [1790] [INFO] Worker exiting (pid: 1790)
+[2024-06-04 09:43:30 +0800] [1607] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:43:30 +0800] [1607] [INFO] Worker exiting (pid: 1607)
+[2024-06-04 09:43:30 +0800] [1700] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:43:30 +0800] [1700] [INFO] Worker exiting (pid: 1700)
+[2024-06-04 09:43:30 +0800] [1605] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:43:30 +0800] [1605] [INFO] Worker exiting (pid: 1605)
+[2024-06-04 09:43:30 +0800] [1609] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:43:30 +0800] [1609] [INFO] Worker exiting (pid: 1609)
+[2024-06-04 09:43:31 +0800] [1604] [ERROR] Worker (pid:1668) exited with code 3
+[2024-06-04 09:43:31 +0800] [1645] [INFO] Worker exiting (pid: 1645)
+[2024-06-04 09:43:31 +0800] [1608] [INFO] Worker exiting (pid: 1608)
+[2024-06-04 09:43:31 +0800] [1754] [INFO] Worker exiting (pid: 1754)
+[2024-06-04 09:43:31 +0800] [1792] [INFO] Worker exiting (pid: 1792)
+[2024-06-04 09:43:31 +0800] [1789] [INFO] Worker exiting (pid: 1789)
+[2024-06-04 09:43:31 +0800] [1718] [INFO] Worker exiting (pid: 1718)
+[2024-06-04 09:43:31 +0800] [1604] [ERROR] Worker (pid:1700) exited with code 3
+[2024-06-04 09:45:28 +0800] [2062] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 09:45:28 +0800] [2062] [INFO] Listening at: http://127.0.0.1:6006 (2062)
+[2024-06-04 09:45:28 +0800] [2062] [INFO] Using worker: sync
+[2024-06-04 09:45:28 +0800] [2063] [INFO] Booting worker with pid: 2063
+[2024-06-04 09:45:28 +0800] [2064] [INFO] Booting worker with pid: 2064
+[2024-06-04 09:45:28 +0800] [2066] [INFO] Booting worker with pid: 2066
+[2024-06-04 09:45:28 +0800] [2094] [INFO] Booting worker with pid: 2094
+[2024-06-04 09:45:28 +0800] [2102] [INFO] Booting worker with pid: 2102
+[2024-06-04 09:45:28 +0800] [2103] [INFO] Booting worker with pid: 2103
+[2024-06-04 09:45:28 +0800] [2104] [INFO] Booting worker with pid: 2104
+[2024-06-04 09:45:28 +0800] [2122] [INFO] Booting worker with pid: 2122
+[2024-06-04 09:45:28 +0800] [2123] [INFO] Booting worker with pid: 2123
+[2024-06-04 09:45:29 +0800] [2158] [INFO] Booting worker with pid: 2158
+[2024-06-04 09:45:29 +0800] [2161] [INFO] Booting worker with pid: 2161
+[2024-06-04 09:45:29 +0800] [2177] [INFO] Booting worker with pid: 2177
+[2024-06-04 09:45:29 +0800] [2178] [INFO] Booting worker with pid: 2178
+[2024-06-04 09:45:29 +0800] [2179] [INFO] Booting worker with pid: 2179
+[2024-06-04 09:45:29 +0800] [2197] [INFO] Booting worker with pid: 2197
+[2024-06-04 09:45:29 +0800] [2198] [INFO] Booting worker with pid: 2198
+[2024-06-04 09:45:35 +0800] [2179] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:45:35 +0800] [2179] [INFO] Worker exiting (pid: 2179)
+[2024-06-04 09:45:35 +0800] [2178] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:45:35 +0800] [2178] [INFO] Worker exiting (pid: 2178)
+[2024-06-04 09:45:35 +0800] [2102] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:45:35 +0800] [2102] [INFO] Worker exiting (pid: 2102)
+[2024-06-04 09:45:35 +0800] [2158] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:45:35 +0800] [2158] [INFO] Worker exiting (pid: 2158)
+[2024-06-04 09:45:35 +0800] [2123] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:45:35 +0800] [2123] [INFO] Worker exiting (pid: 2123)
+[2024-06-04 09:45:35 +0800] [2198] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:45:35 +0800] [2198] [INFO] Worker exiting (pid: 2198)
+[2024-06-04 09:45:35 +0800] [2094] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:45:35 +0800] [2094] [INFO] Worker exiting (pid: 2094)
+[2024-06-04 09:45:35 +0800] [2161] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:45:35 +0800] [2161] [INFO] Worker exiting (pid: 2161)
+[2024-06-04 09:45:35 +0800] [2197] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:45:35 +0800] [2197] [INFO] Worker exiting (pid: 2197)
+[2024-06-04 09:45:35 +0800] [2177] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:45:35 +0800] [2177] [INFO] Worker exiting (pid: 2177)
+[2024-06-04 09:45:35 +0800] [2062] [ERROR] Worker (pid:2179) exited with code 3
+[2024-06-04 09:45:35 +0800] [2063] [INFO] Worker exiting (pid: 2063)
+[2024-06-04 09:45:35 +0800] [2064] [INFO] Worker exiting (pid: 2064)
+[2024-06-04 09:45:35 +0800] [2104] [INFO] Worker exiting (pid: 2104)
+[2024-06-04 09:45:35 +0800] [2122] [INFO] Worker exiting (pid: 2122)
+[2024-06-04 09:45:35 +0800] [2103] [INFO] Worker exiting (pid: 2103)
+[2024-06-04 09:45:35 +0800] [2066] [INFO] Worker exiting (pid: 2066)
+[2024-06-04 09:45:35 +0800] [2062] [ERROR] Worker (pid:2178) exited with code 3
+[2024-06-04 09:47:26 +0800] [2508] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 09:47:26 +0800] [2508] [INFO] Listening at: http://127.0.0.1:6006 (2508)
+[2024-06-04 09:47:26 +0800] [2508] [INFO] Using worker: sync
+[2024-06-04 09:47:26 +0800] [2509] [INFO] Booting worker with pid: 2509
+[2024-06-04 09:47:26 +0800] [2510] [INFO] Booting worker with pid: 2510
+[2024-06-04 09:47:26 +0800] [2511] [INFO] Booting worker with pid: 2511
+[2024-06-04 09:47:26 +0800] [2529] [INFO] Booting worker with pid: 2529
+[2024-06-04 09:47:26 +0800] [2547] [INFO] Booting worker with pid: 2547
+[2024-06-04 09:47:26 +0800] [2548] [INFO] Booting worker with pid: 2548
+[2024-06-04 09:47:26 +0800] [2566] [INFO] Booting worker with pid: 2566
+[2024-06-04 09:47:26 +0800] [2567] [INFO] Booting worker with pid: 2567
+[2024-06-04 09:47:26 +0800] [2602] [INFO] Booting worker with pid: 2602
+[2024-06-04 09:47:26 +0800] [2620] [INFO] Booting worker with pid: 2620
+[2024-06-04 09:47:26 +0800] [2621] [INFO] Booting worker with pid: 2621
+[2024-06-04 09:47:27 +0800] [2673] [INFO] Booting worker with pid: 2673
+[2024-06-04 09:47:27 +0800] [2691] [INFO] Booting worker with pid: 2691
+[2024-06-04 09:47:27 +0800] [2709] [INFO] Booting worker with pid: 2709
+[2024-06-04 09:47:27 +0800] [2727] [INFO] Booting worker with pid: 2727
+[2024-06-04 09:47:27 +0800] [2728] [INFO] Booting worker with pid: 2728
+[2024-06-04 09:47:32 +0800] [2673] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:47:32 +0800] [2673] [INFO] Worker exiting (pid: 2673)
+[2024-06-04 09:47:32 +0800] [2566] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:47:32 +0800] [2566] [INFO] Worker exiting (pid: 2566)
+[2024-06-04 09:47:32 +0800] [2602] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:47:32 +0800] [2602] [INFO] Worker exiting (pid: 2602)
+[2024-06-04 09:47:32 +0800] [2621] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:47:32 +0800] [2621] [INFO] Worker exiting (pid: 2621)
+[2024-06-04 09:47:32 +0800] [2691] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:47:32 +0800] [2691] [INFO] Worker exiting (pid: 2691)
+[2024-06-04 09:47:32 +0800] [2728] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:47:32 +0800] [2728] [INFO] Worker exiting (pid: 2728)
+[2024-06-04 09:47:32 +0800] [2709] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:47:32 +0800] [2709] [INFO] Worker exiting (pid: 2709)
+[2024-06-04 09:47:32 +0800] [2508] [ERROR] Worker (pid:2673) exited with code 3
+[2024-06-04 09:47:32 +0800] [2620] [INFO] Worker exiting (pid: 2620)
+[2024-06-04 09:47:32 +0800] [2511] [INFO] Worker exiting (pid: 2511)
+[2024-06-04 09:47:32 +0800] [2547] [INFO] Worker exiting (pid: 2547)
+[2024-06-04 09:47:32 +0800] [2567] [INFO] Worker exiting (pid: 2567)
+[2024-06-04 09:47:32 +0800] [2529] [INFO] Worker exiting (pid: 2529)
+[2024-06-04 09:47:32 +0800] [2510] [INFO] Worker exiting (pid: 2510)
+[2024-06-04 09:47:32 +0800] [2548] [INFO] Worker exiting (pid: 2548)
+[2024-06-04 09:47:32 +0800] [2509] [INFO] Worker exiting (pid: 2509)
+[2024-06-04 09:47:32 +0800] [2508] [ERROR] Worker (pid:2691) exited with code 3
+[2024-06-04 09:47:36 +0800] [2727] [INFO] Worker exiting (pid: 2727)
+[2024-06-04 09:48:29 +0800] [2935] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 09:48:29 +0800] [2935] [INFO] Listening at: http://127.0.0.1:6006 (2935)
+[2024-06-04 09:48:29 +0800] [2935] [INFO] Using worker: sync
+[2024-06-04 09:48:29 +0800] [2936] [INFO] Booting worker with pid: 2936
+[2024-06-04 09:48:29 +0800] [2937] [INFO] Booting worker with pid: 2937
+[2024-06-04 09:48:29 +0800] [2938] [INFO] Booting worker with pid: 2938
+[2024-06-04 09:48:29 +0800] [2939] [INFO] Booting worker with pid: 2939
+[2024-06-04 09:49:08 +0800] [2935] [INFO] Handling signal: winch
+[2024-06-04 09:49:22 +0800] [2935] [INFO] Handling signal: winch
+[2024-06-04 09:52:27 +0800] [3170] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 09:52:27 +0800] [3170] [INFO] Listening at: http://127.0.0.1:6006 (3170)
+[2024-06-04 09:52:27 +0800] [3170] [INFO] Using worker: sync
+[2024-06-04 09:52:27 +0800] [3171] [INFO] Booting worker with pid: 3171
+[2024-06-04 09:52:27 +0800] [3172] [INFO] Booting worker with pid: 3172
+[2024-06-04 09:52:27 +0800] [3173] [INFO] Booting worker with pid: 3173
+[2024-06-04 09:52:27 +0800] [3174] [INFO] Booting worker with pid: 3174
+[2024-06-04 09:52:27 +0800] [3192] [INFO] Booting worker with pid: 3192
+[2024-06-04 09:52:27 +0800] [3227] [INFO] Booting worker with pid: 3227
+[2024-06-04 09:52:27 +0800] [3228] [INFO] Booting worker with pid: 3228
+[2024-06-04 09:52:27 +0800] [3229] [INFO] Booting worker with pid: 3229
+[2024-06-04 09:52:27 +0800] [3230] [INFO] Booting worker with pid: 3230
+[2024-06-04 09:52:27 +0800] [3265] [INFO] Booting worker with pid: 3265
+[2024-06-04 09:52:27 +0800] [3266] [INFO] Booting worker with pid: 3266
+[2024-06-04 09:52:27 +0800] [3284] [INFO] Booting worker with pid: 3284
+[2024-06-04 09:52:27 +0800] [3336] [INFO] Booting worker with pid: 3336
+[2024-06-04 09:52:27 +0800] [3337] [INFO] Booting worker with pid: 3337
+[2024-06-04 09:52:27 +0800] [3338] [INFO] Booting worker with pid: 3338
+[2024-06-04 09:52:27 +0800] [3339] [INFO] Booting worker with pid: 3339
+[2024-06-04 09:52:33 +0800] [3336] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:52:33 +0800] [3336] [INFO] Worker exiting (pid: 3336)
+[2024-06-04 09:52:33 +0800] [3266] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:52:33 +0800] [3266] [INFO] Worker exiting (pid: 3266)
+[2024-06-04 09:52:33 +0800] [3339] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:52:33 +0800] [3339] [INFO] Worker exiting (pid: 3339)
+[2024-06-04 09:52:33 +0800] [3337] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:52:33 +0800] [3337] [INFO] Worker exiting (pid: 3337)
+[2024-06-04 09:52:33 +0800] [3265] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:52:33 +0800] [3265] [INFO] Worker exiting (pid: 3265)
+[2024-06-04 09:52:33 +0800] [3284] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:52:33 +0800] [3284] [INFO] Worker exiting (pid: 3284)
+[2024-06-04 09:52:33 +0800] [3338] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/root/miniconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/autodl-tmp/faster-whisper/test.py", line 21, in <module>
+    model = WhisperModel(model_size, device="cuda", compute_type="float16")
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 145, in __init__
+    self.model = ctranslate2.models.Whisper(
+RuntimeError: CUDA failed with error out of memory
+[2024-06-04 09:52:33 +0800] [3338] [INFO] Worker exiting (pid: 3338)
+[2024-06-04 09:52:33 +0800] [3170] [ERROR] Worker (pid:3336) exited with code 3
+[2024-06-04 09:52:33 +0800] [3174] [INFO] Worker exiting (pid: 3174)
+[2024-06-04 09:52:33 +0800] [3227] [INFO] Worker exiting (pid: 3227)
+[2024-06-04 09:52:33 +0800] [3192] [INFO] Worker exiting (pid: 3192)
+[2024-06-04 09:52:33 +0800] [3171] [INFO] Worker exiting (pid: 3171)
+[2024-06-04 09:52:33 +0800] [3173] [INFO] Worker exiting (pid: 3173)
+[2024-06-04 09:52:33 +0800] [3228] [INFO] Worker exiting (pid: 3228)
+[2024-06-04 09:52:33 +0800] [3229] [INFO] Worker exiting (pid: 3229)
+[2024-06-04 09:52:33 +0800] [3230] [INFO] Worker exiting (pid: 3230)
+[2024-06-04 09:52:33 +0800] [3172] [INFO] Worker exiting (pid: 3172)
+[2024-06-04 09:52:33 +0800] [3170] [ERROR] Worker (pid:3337) exited with code 3
+[2024-06-04 09:53:49 +0800] [3599] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 09:53:49 +0800] [3599] [INFO] Listening at: http://127.0.0.1:6006 (3599)
+[2024-06-04 09:53:49 +0800] [3599] [INFO] Using worker: sync
+[2024-06-04 09:53:49 +0800] [3600] [INFO] Booting worker with pid: 3600
+[2024-06-04 09:53:49 +0800] [3601] [INFO] Booting worker with pid: 3601
+[2024-06-04 09:53:49 +0800] [3602] [INFO] Booting worker with pid: 3602
+[2024-06-04 09:53:49 +0800] [3620] [INFO] Booting worker with pid: 3620
+[2024-06-04 09:53:49 +0800] [3638] [INFO] Booting worker with pid: 3638
+[2024-06-04 09:53:49 +0800] [3656] [INFO] Booting worker with pid: 3656
+[2024-06-04 09:53:49 +0800] [3657] [INFO] Booting worker with pid: 3657
+[2024-06-04 09:53:49 +0800] [3658] [INFO] Booting worker with pid: 3658
+[2024-06-04 10:11:11 +0800] [3599] [CRITICAL] WORKER TIMEOUT (pid:3600)
+[2024-06-04 10:11:11 +0800] [3600] [ERROR] Error handling request /transcribe
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 183, in handle_request
+    for item in respiter:
+  File "/root/miniconda3/lib/python3.10/site-packages/werkzeug/wsgi.py", line 256, in __next__
+    return self._next()
+  File "/root/miniconda3/lib/python3.10/site-packages/werkzeug/wrappers/response.py", line 32, in _iter_encoded
+    for item in iterable:
+  File "/root/autodl-tmp/faster-whisper/test.py", line 37, in generate
+    for segment in segments:
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 1178, in restore_speech_timestamps
+    for segment in segments:
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 583, in generate_segments
+    ) = self.generate_with_fallback(encoder_output, prompt, tokenizer, options)
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 873, in generate_with_fallback
+    result = self.model.generate(
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 203, in handle_abort
+    sys.exit(1)
+SystemExit: 1
+[2024-06-04 10:11:11 +0800] [3600] [INFO] Worker exiting (pid: 3600)
+[2024-06-04 10:11:12 +0800] [3599] [ERROR] Worker (pid:3600) was sent SIGKILL! Perhaps out of memory?
+[2024-06-04 10:11:12 +0800] [4321] [INFO] Booting worker with pid: 4321
+[2024-06-04 10:12:27 +0800] [3599] [CRITICAL] WORKER TIMEOUT (pid:3657)
+[2024-06-04 10:12:28 +0800] [3599] [ERROR] Worker (pid:3657) was sent SIGKILL! Perhaps out of memory?
+[2024-06-04 10:12:28 +0800] [4394] [INFO] Booting worker with pid: 4394
+[2024-06-04 10:19:10 +0800] [4507] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 10:19:10 +0800] [4507] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:19:10 +0800] [4507] [ERROR] Retrying in 1 second.
+[2024-06-04 10:19:11 +0800] [4507] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:19:11 +0800] [4507] [ERROR] Retrying in 1 second.
+[2024-06-04 10:19:12 +0800] [4507] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:19:12 +0800] [4507] [ERROR] Retrying in 1 second.
+[2024-06-04 10:19:13 +0800] [4507] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:19:13 +0800] [4507] [ERROR] Retrying in 1 second.
+[2024-06-04 10:19:26 +0800] [4513] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 10:19:26 +0800] [4513] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:19:26 +0800] [4513] [ERROR] Retrying in 1 second.
+[2024-06-04 10:19:27 +0800] [4513] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:19:27 +0800] [4513] [ERROR] Retrying in 1 second.
+[2024-06-04 10:19:28 +0800] [4513] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:19:28 +0800] [4513] [ERROR] Retrying in 1 second.
+[2024-06-04 10:19:29 +0800] [4513] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:19:29 +0800] [4513] [ERROR] Retrying in 1 second.
+[2024-06-04 10:19:30 +0800] [4513] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:19:30 +0800] [4513] [ERROR] Retrying in 1 second.
+[2024-06-04 10:19:31 +0800] [4513] [ERROR] Can't connect to ('127.0.0.1', 6006)
+[2024-06-04 10:21:14 +0800] [3599] [CRITICAL] WORKER TIMEOUT (pid:3658)
+[2024-06-04 10:21:15 +0800] [3658] [ERROR] Error handling request /transcribe
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 183, in handle_request
+    for item in respiter:
+  File "/root/miniconda3/lib/python3.10/site-packages/werkzeug/wsgi.py", line 256, in __next__
+    return self._next()
+  File "/root/miniconda3/lib/python3.10/site-packages/werkzeug/wrappers/response.py", line 32, in _iter_encoded
+    for item in iterable:
+  File "/root/autodl-tmp/faster-whisper/test.py", line 37, in generate
+    for segment in segments:
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 1178, in restore_speech_timestamps
+    for segment in segments:
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 583, in generate_segments
+    ) = self.generate_with_fallback(encoder_output, prompt, tokenizer, options)
+  File "/root/autodl-tmp/faster-whisper/faster_whisper/transcribe.py", line 873, in generate_with_fallback
+    result = self.model.generate(
+  File "/root/miniconda3/lib/python3.10/site-packages/gunicorn/workers/base.py", line 203, in handle_abort
+    sys.exit(1)
+SystemExit: 1
+[2024-06-04 10:21:15 +0800] [3658] [INFO] Worker exiting (pid: 3658)
+[2024-06-04 10:21:15 +0800] [3599] [ERROR] Worker (pid:3658) was sent SIGKILL! Perhaps out of memory?
+[2024-06-04 10:21:15 +0800] [4563] [INFO] Booting worker with pid: 4563
+[2024-06-04 10:22:22 +0800] [4609] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 10:22:22 +0800] [4609] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:22:22 +0800] [4609] [ERROR] Retrying in 1 second.
+[2024-06-04 10:22:23 +0800] [4609] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:22:23 +0800] [4609] [ERROR] Retrying in 1 second.
+[2024-06-04 10:22:24 +0800] [4609] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:22:24 +0800] [4609] [ERROR] Retrying in 1 second.
+[2024-06-04 10:22:25 +0800] [4609] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:22:25 +0800] [4609] [ERROR] Retrying in 1 second.
+[2024-06-04 10:22:26 +0800] [4609] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:22:26 +0800] [4609] [ERROR] Retrying in 1 second.
+[2024-06-04 10:22:27 +0800] [4609] [ERROR] Can't connect to ('127.0.0.1', 6006)
+[2024-06-04 10:22:32 +0800] [4613] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 10:22:32 +0800] [4613] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:22:32 +0800] [4613] [ERROR] Retrying in 1 second.
+[2024-06-04 10:22:33 +0800] [4613] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:22:33 +0800] [4613] [ERROR] Retrying in 1 second.
+[2024-06-04 10:22:34 +0800] [4613] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:22:34 +0800] [4613] [ERROR] Retrying in 1 second.
+[2024-06-04 10:22:35 +0800] [4613] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:22:35 +0800] [4613] [ERROR] Retrying in 1 second.
+[2024-06-04 10:22:36 +0800] [4613] [ERROR] Connection in use: ('127.0.0.1', 6006)
+[2024-06-04 10:22:36 +0800] [4613] [ERROR] Retrying in 1 second.
+[2024-06-04 10:22:37 +0800] [4613] [ERROR] Can't connect to ('127.0.0.1', 6006)
+[2024-06-04 10:23:42 +0800] [4636] [INFO] Starting gunicorn 22.0.0
+[2024-06-04 10:23:42 +0800] [4636] [INFO] Listening at: http://127.0.0.1:6006 (4636)
+[2024-06-04 10:23:42 +0800] [4636] [INFO] Using worker: sync
+[2024-06-04 10:23:42 +0800] [4637] [INFO] Booting worker with pid: 4637
+[2024-06-04 10:23:43 +0800] [4638] [INFO] Booting worker with pid: 4638
+[2024-06-04 10:23:43 +0800] [4656] [INFO] Booting worker with pid: 4656
+[2024-06-04 10:23:43 +0800] [4674] [INFO] Booting worker with pid: 4674
+[2024-06-04 10:23:43 +0800] [4675] [INFO] Booting worker with pid: 4675
+[2024-06-04 10:23:43 +0800] [4676] [INFO] Booting worker with pid: 4676
+[2024-06-04 10:23:43 +0800] [4690] [INFO] Booting worker with pid: 4690
+[2024-06-04 10:23:43 +0800] [4695] [INFO] Booting worker with pid: 4695
+[2024-06-06 09:32:54 +0800] [4636] [INFO] Handling signal: winch
+[2024-06-06 09:32:55 +0800] [4636] [INFO] Handling signal: winch
+[2024-06-06 18:40:27 +0800] [1462] [INFO] Starting gunicorn 22.0.0
+[2024-06-06 18:40:27 +0800] [1462] [INFO] Listening at: http://127.0.0.1:6006 (1462)
+[2024-06-06 18:40:27 +0800] [1462] [INFO] Using worker: sync
+[2024-06-06 18:40:27 +0800] [1463] [INFO] Booting worker with pid: 1463
+[2024-06-06 18:40:27 +0800] [1464] [INFO] Booting worker with pid: 1464
+[2024-06-06 18:40:27 +0800] [1465] [INFO] Booting worker with pid: 1465
+[2024-06-06 18:40:27 +0800] [1466] [INFO] Booting worker with pid: 1466
+[2024-06-06 18:40:27 +0800] [1518] [INFO] Booting worker with pid: 1518
+[2024-06-06 18:40:27 +0800] [1519] [INFO] Booting worker with pid: 1519
+[2024-06-06 18:40:27 +0800] [1520] [INFO] Booting worker with pid: 1520
+[2024-06-06 18:40:28 +0800] [1538] [INFO] Booting worker with pid: 1538
+[2024-06-06 18:44:29 +0800] [1824] [INFO] Starting gunicorn 22.0.0
+[2024-06-06 18:44:29 +0800] [1824] [INFO] Listening at: http://127.0.0.1:6006 (1824)
+[2024-06-06 18:44:29 +0800] [1824] [INFO] Using worker: sync
+[2024-06-06 18:44:29 +0800] [1825] [INFO] Booting worker with pid: 1825
+[2024-06-06 18:44:29 +0800] [1826] [INFO] Booting worker with pid: 1826
+[2024-06-06 18:44:29 +0800] [1844] [INFO] Booting worker with pid: 1844
+[2024-06-06 18:44:29 +0800] [1845] [INFO] Booting worker with pid: 1845
+[2024-06-06 18:44:29 +0800] [1846] [INFO] Booting worker with pid: 1846
+[2024-06-06 18:44:29 +0800] [1847] [INFO] Booting worker with pid: 1847
+[2024-06-06 18:44:29 +0800] [1865] [INFO] Booting worker with pid: 1865
+[2024-06-06 18:44:29 +0800] [1866] [INFO] Booting worker with pid: 1866
+[2024-06-06 18:44:39 +0800] [1824] [INFO] Handling signal: winch
+[2024-06-14 14:04:02 +0800] [1824] [INFO] Handling signal: winch
+[2024-06-14 14:04:05 +0800] [1824] [INFO] Handling signal: winch
+[2024-06-18 14:18:00 +0800] [1824] [INFO] Handling signal: winch
+[2024-06-18 14:18:00 +0800] [1824] [INFO] Handling signal: winch
+[2024-06-30 17:56:18 +0800] [1824] [INFO] Handling signal: winch
+[2024-06-30 17:56:18 +0800] [1824] [INFO] Handling signal: winch
+[2024-06-30 17:58:42 +0800] [1824] [INFO] Handling signal: winch
+[2024-06-30 18:43:22 +0800] [1824] [INFO] Handling signal: winch
+[2024-07-08 09:40:47 +0800] [1824] [INFO] Handling signal: winch
+[2024-07-14 23:05:53 +0800] [1824] [INFO] Handling signal: winch
+[2024-07-14 23:06:06 +0800] [1824] [INFO] Handling signal: winch
